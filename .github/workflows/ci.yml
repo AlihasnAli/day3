@@ -18,8 +18,7 @@ jobs:
         path: index.html
   
     - name: Deploy Artifact       
-        run: |
-          netlify deploy --prod \
+        run: netlify deploy --prod \
             --dir=out \
             --site ${{ secret.NETLIFY_SITE_ID }} \
             --auth ${{ secret.NETLIFY_API_TOKEN }}
