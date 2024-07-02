@@ -1,7 +1,7 @@
 name: project2
 
 env:
-  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+  NETLIFY_SITE_ID: ${{ secrets.PROJECT2S }}
   NETLIFY_API_TOKEN: ${{ secrets.NETLIFY_API_TOKEN }}
 
 on:
