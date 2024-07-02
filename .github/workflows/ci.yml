@@ -14,7 +14,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: html
-          path: index.html    
+          path: index.html   
+           
       - name: Deploy Artifact       
         run: |
           netlify deploy --prod \
