@@ -19,7 +19,6 @@ jobs:
         with:
           name: html
           path: index.html   
-
       - name: Deploy Artifact       
         run: |
           netlify deploy --prod \
