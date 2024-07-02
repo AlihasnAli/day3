@@ -1,4 +1,4 @@
-name: simple pipeline
+name: project1
 
 env:
   NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
